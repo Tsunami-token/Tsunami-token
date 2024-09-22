@@ -52,7 +52,7 @@
         // تابع برای اشتراک گذاری لینک دعوت
         function shareLink() {
             const userId = window.Telegram.WebApp.initDataUnsafe.user.id;  // گرفتن ID کاربر از تلگرام
-            const inviteLink = https://t.me/YourBotUsername?start=${userId};
+            const inviteLink = https://t.me/Tsunami_token_bot?start=${userId};
             alert(Invite your friends with this link: ${inviteLink});
         }
     </script>
